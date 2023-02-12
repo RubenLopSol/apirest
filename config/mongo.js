@@ -1,3 +1,5 @@
+// CONEXION CON DB
+
 const mongoose = require("mongoose");
 
 const dbConnect = () => {
@@ -18,4 +20,4 @@ const dbConnect = () => {
   );
 };
 
-module.exports = dbConnect;
+module.exports = dbConnect; // para exportar en este caso a app.js
