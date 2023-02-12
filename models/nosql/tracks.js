@@ -6,7 +6,7 @@ const TracksSchema = new mongoose.Schema(
       type: String,
     },
     album: {
-      type: Number,
+      type: String,
     },
     cover: {
       type: String,
@@ -17,7 +17,7 @@ const TracksSchema = new mongoose.Schema(
         message: "ERROR_URL",
       },
     },
-    ARTIST: {
+    artist: {
       name: {
         type: String,
       },
